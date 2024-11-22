@@ -1,7 +1,6 @@
 package com.example.vo;
 
 import com.example.dto.BlogDTO;
-import org.w3c.dom.Text;
 
 import java.time.LocalDateTime;
 
@@ -24,7 +23,7 @@ public class BlogVO {
         return blog.getUserId();
     }
 
-    public Text getContent() {
+    public String getContent() {
         return blog.getContent();
     }
 

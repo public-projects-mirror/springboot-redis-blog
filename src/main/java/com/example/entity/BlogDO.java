@@ -7,7 +7,7 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import java.time.LocalDateTime;
 
 @TableName("blog_post")
-public class BlogDO {
+public class    BlogDO {
     @TableId
     private String blogId;
 
