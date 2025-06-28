@@ -5,38 +5,38 @@ import com.example.dto.BlogDTO;
 import java.time.LocalDateTime;
 
 public class BlogVO {
-    private final transient BlogDTO blog;
+    private final transient BlogDTO blogDTO;
 
-    public BlogVO(BlogDTO blog) {
-        this.blog = blog;
+    public BlogVO(BlogDTO blogDTO) {
+        this.blogDTO = blogDTO;
     }
 
     public String getBlogId() {
-        return blog.getBlogId();
+        return blogDTO.getBlogId();
     }
 
     public String getBlogTitle() {
-        return blog.getBlogTitle();
+        return blogDTO.getBlogTitle();
     }
 
     public String getUserId() {
-        return blog.getUserId();
+        return blogDTO.getUserId();
     }
 
     public String getContent() {
-        return blog.getContent();
+        return blogDTO.getContent();
     }
 
     public LocalDateTime getCreatedAt() {
-        return blog.getCreatedAt();
+        return blogDTO.getCreatedAt();
     }
 
     public LocalDateTime getUpdatedAt() {
-        return blog.getUpdatedAt();
+        return blogDTO.getUpdatedAt();
     }
 
     public Boolean getIsPublished() {
-        return blog.getIsPublished();
+        return blogDTO.getIsPublished();
     }
 
 }

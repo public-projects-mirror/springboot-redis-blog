@@ -5,7 +5,6 @@ import com.example.service.SessionService;
 
 import java.util.UUID;
 
-
 public class SessionAuthManager implements BaseAuthManager {
     SessionService sessionService;
     public SessionAuthManager(SessionService sessionService) {
